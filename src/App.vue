@@ -1,9 +1,10 @@
 <script lang="ts" setup>
-import NavbarComponent from '@/components/NavbarComponent.vue'
+import NavbarComponent, { isNavbarOpen } from './components/NavbarComponent.vue'
 </script>
 
 <template>
   <NavbarComponent />
-
-  <RouterView />
+  <div :class="{ hidden: isNavbarOpen, '': !isNavbarOpen }">
+    <RouterView />
+  </div>
 </template>

@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       main: ['Roboto', 'sans-serif'],
+      bevnpro: ['Be Vietnam Pro', 'sans-serif'],
     },
     extend: {},
   },
