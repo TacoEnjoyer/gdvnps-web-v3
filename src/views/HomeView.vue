@@ -22,7 +22,7 @@ useHead({
           <h1
             class="font-bevnpro mb-4 text-balance text-center text-3xl/[1.1] font-bold sm:max-w-[24ch] md:text-4xl/[1.1] xl:text-5xl/[1.1]"
           >
-            <div class="tracking-wide">Chào mừng đã đến với</div>
+            <div class="tracking-wide">Chào mừng bạn đến với</div>
             <div
               class="pt-2 text-4xl/[1.1] tracking-wide md:text-5xl/[1.1] xl:text-6xl/[1.1]"
             >
@@ -30,6 +30,9 @@ useHead({
             </div>
           </h1>
         </div>
+        <p class="font-bevnpro">
+          yap
+        </p>
       </div>
     </section>
   </main>

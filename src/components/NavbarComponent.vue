@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { DiscordIcon, MenuIcon } from '@/assets/icon'
+import 'primeicons/primeicons.css'
 import { ref } from 'vue'
 </script>
 
@@ -33,6 +34,9 @@ export const isNavbarOpen = ref(false)
           >
           <RouterLink to="/download" class="nav-link" title="Tải xuống"
             >Tải xuống</RouterLink
+          >
+          <RouterLink to="/browser" class="nav-link" title="Browser"
+            >Browser</RouterLink
           >
           <a href="/dashboard" class="nav-link" title="Dashboard">Dashboard</a>
         </div>
