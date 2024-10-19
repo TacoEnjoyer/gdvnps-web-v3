@@ -20,7 +20,7 @@ useHead({
       >
         <div class="flex flex-col items-center">
           <h1
-            class="font-bevnpro mb-4 text-balance text-center text-3xl/[1.1] font-bold sm:max-w-[24ch] md:text-4xl/[1.1] xl:text-5xl/[1.1]"
+            class="mb-4 text-balance text-center font-bevnpro text-3xl/[1.1] font-bold sm:max-w-[24ch] md:text-4xl/[1.1] xl:text-5xl/[1.1]"
           >
             <div class="tracking-wide">Chào mừng bạn đến với</div>
             <div
@@ -30,9 +30,7 @@ useHead({
             </div>
           </h1>
         </div>
-        <p class="font-bevnpro">
-          yap
-        </p>
+        <p class="font-bevnpro">yap</p>
       </div>
     </section>
   </main>
