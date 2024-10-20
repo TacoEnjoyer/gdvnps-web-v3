@@ -35,9 +35,7 @@ export const isNavbarOpen = ref(false)
           <RouterLink to="/download" class="nav-link" title="Tải xuống"
             >Tải xuống</RouterLink
           >
-          <a to="/browser" class="nav-link" title="Browser"
-            >Browser</a
-          >
+          <a to="/browser" class="nav-link" title="Browser">Browser</a>
           <a href="/dashboard" class="nav-link" title="Dashboard">Dashboard</a>
         </div>
         <div class="hidden gap-4 sm:flex">

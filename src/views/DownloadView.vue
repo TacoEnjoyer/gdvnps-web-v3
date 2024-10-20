@@ -1,6 +1,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useHead } from '@unhead/vue';
+import { useHead } from '@unhead/vue'
 export default defineComponent({
   setup() {
     const goToUrl = (url: string) => {
