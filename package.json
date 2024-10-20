@@ -16,6 +16,8 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "primeicons": "^7.0.0",
+    "tsconfig": "^7.0.0",
     "vue": "^3.5.11",
     "vue-router": "^4.4.5"
   },
