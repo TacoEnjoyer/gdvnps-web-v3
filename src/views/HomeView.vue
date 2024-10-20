@@ -2,7 +2,7 @@
 import { useHead } from '@unhead/vue'
 
 useHead({
-  title: 'Trang chủ - GDVNPS',
+  title: 'GDVNPS',
   meta: [
     {
       name: 'description',

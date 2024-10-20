@@ -11,6 +11,16 @@ export default defineComponent({
     }
   },
 })
+
+useHead({
+  title: 'Tải xuống - GDVNPS',
+  meta: [
+    {
+      name: 'description',
+      content: 'Tải xuống GDVNPS cho các thiết bị',
+    },
+  ],
+})
 </script>
 
 <style scoped>
