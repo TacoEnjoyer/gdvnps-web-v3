@@ -2,7 +2,7 @@
 import { useHead } from '@unhead/vue'
 
 useHead({
-  title: 'Trang chủ - GDVNPS',
+  title: 'GDVNPS',
   meta: [
     {
       name: 'description',
@@ -30,7 +30,19 @@ useHead({
             </div>
           </h1>
         </div>
-        <p class="font-bevnpro">yap</p>
+        <p class="font-bevnpro">
+          Là một trong những máy chủ Geometry Dash riêng tư đầu tiên được khởi
+          chạy với hệ thống đánh giá thấp, khả năng tải lên nhạc bản quyền mà
+          vẫn có thể sử dụng bình thường, và hơn nữa là chúng tôi mở nó trên một
+          máy chủ có tốc độ cao.
+        </p>
+        <h1 class="font-bevnpro">Mọi khoản phí đóng góp xin hãy gửi vào:</h1>
+        <div
+          class="mx-5 mt-4 rounded-xl bg-gradient-to-tr from-blue-800 to-red-700 p-5 font-bevnpro"
+        >
+          <h1>Vietinbank: 106803956888</h1>
+        </div>
+        <p class="font-bevnpro">Cảm ơn vì đã đóng góp và chơi GDVNPS!</p>
       </div>
     </section>
   </main>
