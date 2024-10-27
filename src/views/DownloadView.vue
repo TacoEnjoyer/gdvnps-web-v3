@@ -48,7 +48,7 @@ useHead({
     </section>
   </main>
   <div
-    class="mx-5 mt-4 rounded-xl bg-gradient-to-tr from-amber-400 to-red-600	 p-5"
+    class="mx-5 mt-4 rounded-xl bg-gradient-to-tr from-amber-400 to-red-600 p-5"
   >
     <div class="flex flex-col items-center justify-center p-1.5">
       <h2 class="text-3xl font-semibold">GDVNPS latest</h2>
@@ -83,7 +83,7 @@ useHead({
       </div>
     </div>
   </div>
-    <div
+  <div
     class="mx-5 mt-4 rounded-xl bg-gradient-to-tr from-violet-500 to-slate-800 p-5"
   >
     <div class="flex flex-col items-center justify-center p-1.5">
@@ -101,7 +101,9 @@ useHead({
       <div
         class="w-fit cursor-pointer rounded-lg border-2 border-gray-800 px-16 py-4 duration-200 hover:border-gray-600"
         @click="
-          goToUrl('https://github.com/TacoEnjoyer/gdvnps/releases/download/geode/Geode.GDVNPS_signed.apk')
+          goToUrl(
+            'https://github.com/TacoEnjoyer/gdvnps/releases/download/geode/Geode.GDVNPS_signed.apk',
+          )
         "
       >
         <div>

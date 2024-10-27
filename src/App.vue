@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import NavbarComponent, { isNavbarOpen } from './components/NavbarComponent.vue';
-import FooterComponent from './components/FooterComponent.vue';
+import NavbarComponent, { isNavbarOpen } from './components/NavbarComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
 </script>
 
 <template>
@@ -8,7 +8,5 @@ import FooterComponent from './components/FooterComponent.vue';
   <div :class="{ hidden: isNavbarOpen, '': !isNavbarOpen }">
     <RouterView />
   </div>
-  <FooterComponent>
-
-  </FooterComponent>
+  <FooterComponent> </FooterComponent>
 </template>

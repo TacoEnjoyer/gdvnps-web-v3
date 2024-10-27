@@ -2,7 +2,9 @@
   <div class="error-parent">
     <div class="error-children">
       <h1 class="error-heading">Well...</h1>
-      <p class="error-paragraph-status">404 Not found, I don't think it exists.</p>
+      <p class="error-paragraph-status">
+        404 Not found, I don't think it exists.
+      </p>
     </div>
   </div>
 </template>
