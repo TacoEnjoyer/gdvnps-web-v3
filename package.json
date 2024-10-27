@@ -16,6 +16,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "primeicons": "^7.0.0",
     "tsconfig": "^7.0.0",
     "vue": "^3.5.11",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
+    "@types/aos": "^3.0.7",
     "@types/node": "^20.16.11",
     "@unhead/vue": "^1.11.7",
     "@vitejs/plugin-vue": "^5.1.4",
